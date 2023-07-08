@@ -19,7 +19,7 @@ void print_binary(unsigned long int n)
 		mask >>= 1;
 	}
 	if (leading_zeros)
-		prinft("0");
+		printf("0");
 }
 
 /**
